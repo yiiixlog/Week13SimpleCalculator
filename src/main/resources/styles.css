@@ -1,0 +1,52 @@
+.calculator-root {
+  -fx-font-family: "Arial", "Helvetica", sans-serif;
+  -fx-background-color: linear-gradient(to bottom right, #f08654, #6f71ec);
+}
+
+.app-title {
+  -fx-min-height: 48px;
+  -fx-font-size: 20px;
+  -fx-font-weight: 700;
+  -fx-text-fill: #ffffff;
+  -fx-text-alignment: center;
+  -fx-line-spacing: 1px;
+}
+
+.display {
+  -fx-min-height: 96px;
+  -fx-padding: 0 20px;
+  -fx-background-color: rgba(126, 88, 130, 0.28);
+  -fx-background-radius: 12px;
+  -fx-font-size: 34px;
+  -fx-font-weight: 400;
+  -fx-text-fill: #ffffff;
+}
+
+.keypad {
+  -fx-padding: 0;
+}
+
+.calculator-button {
+  -fx-background-color: rgba(125, 88, 135, 0.28);
+  -fx-background-radius: 12px;
+  -fx-border-width: 0;
+  -fx-font-size: 34px;
+  -fx-font-weight: 400;
+  -fx-text-fill: #ffffff;
+  -fx-cursor: hand;
+  -fx-padding: 0;
+}
+
+.clear-button {
+  -fx-background-color: rgba(112, 76, 126, 0.38);
+  -fx-text-fill: #ffffff;
+}
+
+.calculator-button:hover {
+  -fx-background-color: rgba(255, 255, 255, 0.18);
+}
+
+.calculator-button:pressed {
+  -fx-translate-y: 1px;
+  -fx-background-color: rgba(255, 255, 255, 0.28);
+}

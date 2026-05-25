@@ -1,0 +1,10 @@
+.DS_Store
+build/
+out/
+target/
+*.class
+*.log
+
+# IDE metadata
+.idea/
+*.iml
